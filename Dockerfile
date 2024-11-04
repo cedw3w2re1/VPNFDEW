@@ -8,4 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "VPNBOT.py"]
+# Запуск бота в виртуальной среде 
+CMD ["myenv/bin/python", "VPNBOT.py"]  # Замените 'myenv'  на  имя  вашей  среды
